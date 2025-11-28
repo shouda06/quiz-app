@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>水族館 謎解きツアー</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+
+    <!-- スタート画面 -->
+    <div id="startScreen" class="screen active">
+      <h1>水族館 謎解きツアー</h1>
+      <button onclick="startGame()">スタート</button>
+    </div>
+
+    <!-- 問題画面 -->
+    <div id="questionScreen" class="screen">
+      <h2 id="questionTitle"></h2>
+      <div id="choices"></div>
+      <button onclick="submitAnswer()">回答する</button>
+    </div>
+
+    <!-- 正解画面 -->
+    <div id="correctScreen" class="screen">
+      <h2>正解！！</h2>
+      <button onclick="goNext()">次の問題へ</button>
+    </div>
+
+    <!-- 不正解画面 -->
+    <div id="wrongScreen" class="screen">
+      <h2>不正解...</h2>
+      <button onclick="retry()">もう一度挑戦</button>
+    </div>
+
+    <!-- 抽選画面 -->
+    <div id="lotteryScreen" class="screen">
+      <h2>おめでとうございます！</h2>
+      <p>抽選ページへ進んでください</p>
+      <button onclick="goToGoogleForm()">抽選へ進む</button>
+    </div>
+
+    <!-- 完了画面 -->
+    <div id="completeScreen" class="screen">
+      <h2>応募完了！</h2>
+      <p>ご参加ありがとうございました。</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
