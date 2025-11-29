@@ -68,3 +68,31 @@ button {
 body.start-bg {
   background: url("images/start.jpg") no-repeat center center / cover;
 }
+
+body.q1-bg {
+  background: url("images/q1.jpg") no-repeat center center / cover;
+}
+
+body.q2-bg {
+  background: url("images/q2.jpg") no-repeat center center / cover;
+}
+
+body.q3-bg {
+  background: url("images/q3.jpg") no-repeat center center / cover;
+}
+
+body.q4-bg {
+  background: url("images/q4.jpg") no-repeat center center / cover;
+}
+
+body.correct-bg {
+  background: url("images/correct.jpg") no-repeat center center / cover;
+}
+
+body.wrong-bg {
+  background: url("images/wrong.jpg") no-repeat center center / cover;
+}
+
+body.lottery-bg {
+  background: url("images/lottery.jpg") no-repeat center center / cover;
+}
