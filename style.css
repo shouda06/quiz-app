@@ -41,6 +41,9 @@ h1 {
   text-align: center;  /* 中央揃え */
 }
 
+h2{
+  font-size: 13px;
+}
 
 button {
   position: fixed;
@@ -56,14 +59,22 @@ button {
   border-radius: 8px;
 }
 
+#choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .choice {
-  width: 80%;
   padding: 15px;
-  margin: 8px 0;
   border: 2px solid white;
   border-radius: 8px;
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
+  background-color: rgba(0,0,0,0.4);
 }
 
 .choice.selected {
