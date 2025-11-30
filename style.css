@@ -11,6 +11,19 @@ body {
   background-repeat: no-repeat;
 }
 
+@media (max-aspect-ratio: 3/4) {
+  body {
+    background-size: cover;
+  }
+}
+
+@media (min-aspect-ratio: 3/4) {
+  body {
+    background-size: contain;
+  }
+}
+
+
 #app {
   display: flex;
   justify-content: center;
