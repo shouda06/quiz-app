@@ -2,9 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #0e1a23;
   color: white;
   height: 100vh;
+
+  /* 背景はクラスで設定するので共通設定だけ残す */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #app {
@@ -24,6 +28,7 @@ body {
 .screen.active {
   display: flex;
 }
+
 
 h1, h2 {
   text-align: center;
@@ -65,34 +70,12 @@ button {
   background-color: #f39c12;
 }
 
-body.start-bg {
-  background: url("images/start.jpg") no-repeat center center / cover;
-}
-
-body.q1-bg {
-  background: url("images/q1.jpg") no-repeat center center / cover;
-}
-
-body.q2-bg {
-  background: url("images/q2.jpg") no-repeat center center / cover;
-}
-
-body.q3-bg {
-  background: url("images/q3.jpg") no-repeat center center / cover;
-}
-
-body.q4-bg {
-  background: url("images/q4.jpg") no-repeat center center / cover;
-}
-
-body.correct-bg {
-  background: url("images/correct.jpg") no-repeat center center / cover;
-}
-
-body.wrong-bg {
-  background: url("images/wrong.jpg") no-repeat center center / cover;
-}
-
-body.lottery-bg {
-  background: url("images/lottery.jpg") no-repeat center center / cover;
-}
+/* ▼ 背景切替クラス ▼ */
+body.start-bg   { background-image: url("images/start.jpg"); }
+body.q1-bg      { background-image: url("images/q1.jpg"); }
+body.q2-bg      { background-image: url("images/q2.jpg"); }
+body.q3-bg      { background-image: url("images/q3.jpg"); }
+body.q4-bg      { background-image: url("images/q4.jpg"); }
+body.correct-bg { background-image: url("images/correct.jpg"); }
+body.wrong-bg   { background-image: url("images/wrong.jpg"); }
+body.lottery-bg { background-image: url("images/lottery.jpg"); }
