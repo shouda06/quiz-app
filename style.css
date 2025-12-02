@@ -65,7 +65,7 @@ h3{
 button {
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 5px;
   width: 80%;
   max-width: 250px;
   padding: 15px;
@@ -112,7 +112,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 .hint-btn {
   display: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 75px;
   right: 10px;
   padding: 10px 14px;
   font-size: 14px;
