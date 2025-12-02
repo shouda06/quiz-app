@@ -114,12 +114,14 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   position: fixed;
   bottom: 75px;
   right: 0px;
+  width: 45%;
   padding: 0;
   background: none;
   border: none;
   align-items: center;
   gap: 6px;   /* ←画像と文字の間隔 */
   min-width: 0;   /* iOS/Androidで余白を消す */
+  z-index: 1000;
 }
 
 .hint-icon {
