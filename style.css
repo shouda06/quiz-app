@@ -128,24 +128,24 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 
 .hint-text {
   color: black;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* スマホ用の追加縮小（推奨） */
 @media (max-width: 480px) {
   .hint-btn {
-    padding: 5px 8px;
+    padding: 2px 5px;
     right: 10px;
     bottom: 65px;
   }
 
   .hint-icon {
-    width: 22px;
-    height: 32px;
+    width: 40px;
+    height: 60px;
   }
 
   .hint-text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
