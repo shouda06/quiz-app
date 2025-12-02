@@ -119,9 +119,11 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   width: 45%;
   max-width: 140px;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.277);  /* 半透明背景 */
-  border: 2px solid white;             /* 枠線 */
-  border-radius: 8px;                  /* 角丸 */
+  background: none;
+  border: none;
+  /*background-color: rgba(0, 0, 0, 0.277);  半透明背景 */
+  /*border: 2px solid white;              枠線 */
+  /*border-radius: 8px;                   角丸 */
   align-items: center;
   gap: 6px;   /* ←画像と文字の間隔 */
   min-width: 0;   /* iOS/Androidで余白を消す */
@@ -129,12 +131,12 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 }
 
 .hint-icon {
-  width: 28px;     /* 好きなサイズに調整 */
-  height: 40px;
+  width: 40px;     /* 好きなサイズに調整 */
+  height: 60px;
 }
 
 .hint-text {
-  color: white;
+  color: black;
   font-size: 16px;
 }
 
