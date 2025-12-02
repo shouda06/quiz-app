@@ -55,7 +55,9 @@ h1 {
 }
 
 h2{
-  font-size: 12px;
+  font-size: 6vw; 
+  font-size: 17px;
+  width: 50%;
 }
 
 h3{
@@ -80,7 +82,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
-  width: 90%;
+  width: 50%;
   max-width: 400px;
   margin: 0 auto;
 }
