@@ -119,6 +119,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   border: none;
   align-items: center;
   gap: 6px;   /* ←画像と文字の間隔 */
+  min-width: 0;   /* iOS/Androidで余白を消す */
 }
 
 .hint-icon {
@@ -134,7 +135,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 /* スマホ用の追加縮小（推奨） */
 @media (max-width: 480px) {
   .hint-btn {
-    padding: 2px 5px;
+    padding: 1px 3px;
     right: 0px;
     bottom: 65px;
   }
