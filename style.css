@@ -115,9 +115,11 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   bottom: 75px;
   right: 0px;
   width: 45%;
+  max-width: 140px;
   padding: 0;
-  background: none;
-  border: none;
+  background-color: rgba(0,0,0,0.4);  /* 半透明背景 */
+  border: 2px solid white;             /* 枠線 */
+  border-radius: 8px;                  /* 角丸 */
   align-items: center;
   gap: 6px;   /* ←画像と文字の間隔 */
   min-width: 0;   /* iOS/Androidで余白を消す */
@@ -130,7 +132,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 }
 
 .hint-text {
-  color: black;
+  color: white;
   font-size: 16px;
 }
 
