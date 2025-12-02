@@ -85,6 +85,13 @@ function renderQuestion() {
     div.onclick = () => selectChoice(index, div);
     choicesDiv.appendChild(div);
   });
+
+  // 不正解後ならヒントボタンを表示
+if (lastAnsweredQuestion === currentQuestion) {
+  document.getElementById("hintButton").style.display = "block";
+} else {
+  document.getElementById("hintButton").style.display = "none";
+}
 }
 
 // 選択肢クリック
@@ -131,6 +138,13 @@ function retry() {
   showScreen("questionScreen");
 }
 
+const hints = [
+  "ヒント：サンシャイン水族館の環境保全活動を調べてみよう！",
+  "ヒント：展示パネルに種類数が書いてあるよ。",
+  "ヒント：1つだけ“モドキ”という名前がついてます。",
+  "ヒント：梅山さんは脂がのった魚が好き…？"
+];
+
 // Googleフォーム連携（ここを書き換える）
 function goToGoogleForm() {
   // ↓ここを自分のフォームURLに変更
@@ -140,3 +154,12 @@ function goToGoogleForm() {
 // 初期表示
 showScreen("startScreen");
 document.body.classList.add("start-bg");
+
+function openHint() {
+  document.getElementById("hintText").innerText = hints[currentQuestion];
+  document.getElementById("hintModal").style.display = "block";
+}
+
+function closeHint() {
+  document.getElementById("hintModal").style.display = "none";
+}

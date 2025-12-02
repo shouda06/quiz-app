@@ -107,3 +107,49 @@ body.q4-bg      { background-image: url("images/q4.jpg"); }
 body.correct-bg { background-image: url("images/correct.jpg"); }
 body.wrong-bg   { background-image: url("images/wrong.jpg"); }
 body.lottery-bg { background-image: url("images/lottery.jpg"); }
+
+/* ヒントボタン（初期は非表示） */
+.hint-btn {
+  display: none;
+  position: absolute;
+  bottom: 80px;
+  right: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  width: auto;
+}
+
+/* モーダル背景 */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* モーダル本体 */
+.modal-content {
+  background-color: #ffffff;
+  margin: 30% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  color: black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* 閉じるボタン */
+.close {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
