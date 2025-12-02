@@ -134,7 +134,7 @@ function retry() {
 // Googleフォーム連携（ここを書き換える）
 function goToGoogleForm() {
   // ↓ここを自分のフォームURLに変更
-  window.location.href = "https://forms.gle/XXXXXXXXXXXX";
+  window.location.href = "https://docs.google.com/forms/d/1YhFsUPtlhUerK0Oz60bH4ayxu4rFuCUbaNaw04zv3qI/edit";
 }
 
 // 初期表示
