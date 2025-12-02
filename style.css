@@ -63,7 +63,7 @@ h3{
 }
 
 button {
-  position: absolute;
+  position: fixed;
   right: 10px;
   bottom: 10px;
   width: 80%;
@@ -111,7 +111,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 /* ヒントボタン（初期は非表示） */
 .hint-btn {
   display: none;
-  position: absolute;
+  position: fixed;
   bottom: 80px;
   right: 10px;
   padding: 10px 14px;
