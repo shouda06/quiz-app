@@ -113,7 +113,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   display: none;
   position: fixed;
   bottom: 75px;
-  right: -60px;
+  right: 0px;
   padding: 0;
   background: none;
   border: none;
@@ -129,6 +129,24 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 .hint-text {
   color: black;
   font-size: 18px;
+}
+
+/* スマホ用の追加縮小（推奨） */
+@media (max-width: 480px) {
+  .hint-btn {
+    padding: 5px 8px;
+    right: 10px;
+    bottom: 65px;
+  }
+
+  .hint-icon {
+    width: 22px;
+    height: 32px;
+  }
+
+  .hint-text {
+    font-size: 14px;
+  }
 }
 
 /* モーダル背景 */
