@@ -113,14 +113,22 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   display: none;
   position: fixed;
   bottom: 75px;
-  right: 10px;
-  padding: 10px 14px;
-  font-size: 14px;
-  background: rgba(0,0,0,0.6);
-  border: 1px solid white;
-  border-radius: 30px;
-  color: white;
-  width: auto;
+  right: -60px;
+  padding: 0;
+  background: none;
+  border: none;
+  align-items: center;
+  gap: 6px;   /* ←画像と文字の間隔 */
+}
+
+.hint-icon {
+  width: 40px;     /* 好きなサイズに調整 */
+  height: 60px;
+}
+
+.hint-text {
+  color: black;
+  font-size: 18px;
 }
 
 /* モーダル背景 */
