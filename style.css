@@ -121,7 +121,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   padding: 0;
   /*background: none;  */
   /*border: none;  */
-  background-color: rgba(0, 0, 0, 0.35);  /*半透明背景 */
+  background-color: rgba(26, 188, 156, 0.45);  /*半透明背景 */
   border: 2px solid white;             /* 枠線 */
   border-radius: 100px;                  /* 角丸 */
   align-items: center;
