@@ -116,7 +116,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   position: fixed;
   bottom: 75px;
   right: 0px;
-  width: 40%;
+  width: 30%;
   max-width: 140px;
   padding: 0;
   background: none;  /**/
@@ -149,8 +149,8 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   }
 
   .hint-icon {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .hint-text {
