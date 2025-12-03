@@ -131,8 +131,8 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 }
 
 .hint-icon {
-  width: 65px;     /* 好きなサイズに調整 */
-  height: 85px;
+  width: 80px;     /* 好きなサイズに調整 */
+  height: 100px;
 }
 
 .hint-text {
