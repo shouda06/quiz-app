@@ -119,11 +119,11 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   width: 20%;
   max-width: 140px;
   padding: 0;
-  /*background: none;  */
-  /*border: none;  */
-  background-color: rgba(0, 0, 0, 0.20);  /*半透明背景 */
-  border: 2px solid white;             /* 枠線 */
-  border-radius: 100px;                  /* 角丸 */
+  background: none; /* */
+  border: none;  /**/
+  /*background-color: rgba(0, 0, 0, 0.20);  半透明背景 */
+  /*border: 2px solid white;              枠線 */
+  /*border-radius: 100px;                   角丸 */
   align-items: center;
   gap: 6px;   /* ←画像と文字の間隔 */
   min-width: 0;   /* iOS/Androidで余白を消す */
@@ -131,8 +131,8 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 }
 
 .hint-icon {
-  width: 63px;     /* 好きなサイズに調整 */
-  height: 63px;
+  width: 66px;     /* 好きなサイズに調整 */
+  height: 66px;
 }
 
 .hint-text {
@@ -149,8 +149,8 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   }
 
   .hint-icon {
-    width: 63px;
-    height: 63px;
+    width: 66px;
+    height: 66px;
   }
 
   .hint-text {
