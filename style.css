@@ -121,8 +121,8 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   padding: 0;
   /*background: none;  */
   /*border: none;  */
-  background-color: rgba(33, 220, 182, 0.8);  /*半透明背景 */
-  border: 2px solid black;             /* 枠線 */
+  background-color: rgba(0, 0, 0, 0.20);  /*半透明背景 */
+  border: 2px solid white;             /* 枠線 */
   border-radius: 100px;                  /* 角丸 */
   align-items: center;
   gap: 6px;   /* ←画像と文字の間隔 */
