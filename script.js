@@ -148,7 +148,7 @@ const hints = [
 // Googleフォーム連携（ここを書き換える）
 function goToGoogleForm() {
   // ↓ここを自分のフォームURLに変更
-  window.location.href = "https://docs.google.com/forms/d/1YhFsUPtlhUerK0Oz60bH4ayxu4rFuCUbaNaw04zv3qI/edit";
+  window.location.href = "https://forms.gle/n58Vt5RM5thv3W8j8";
 }
 
 // 初期表示

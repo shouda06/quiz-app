@@ -179,7 +179,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   max-width: 300px;
   color: black;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 /* 閉じるボタン */
