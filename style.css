@@ -9,7 +9,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 52.6% auto !important;
+  background-size: 80% auto !important;
 }
 
 @media (max-aspect-ratio: 3/4) {
