@@ -192,7 +192,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 
 #startScreen .start-btn {
   position: absolute;
-  bottom: 267.3px;      /* 位置調整（自由に変更OK） */
+  bottom: 230px;      /* 位置調整（自由に変更OK） */
   left: 50.7%;
   transform: translateX(-50%);
   
