@@ -163,3 +163,15 @@ function openHint() {
 function closeHint() {
   document.getElementById("hintModal").style.display = "none";
 }
+
+function setFixedVH() {
+  document.documentElement.style.setProperty(
+    "--fix-vh",
+    (window.innerHeight * 0.01) + "px"
+  );
+}
+window.addEventListener("resize", setFixedVH);
+window.addEventListener("orientationchange", setFixedVH);
+setFixedVH();
+
+window.addEventListener("load", setFixedVH);
