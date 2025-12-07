@@ -19,6 +19,7 @@ body {
   body {
     background-size: cover;
     background-size: 105% auto !important;
+    background-attachment: scroll !important;
   }
 }
 
