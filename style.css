@@ -231,7 +231,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 }
 }
 
-* {
+/** {
   -webkit-appearance: none;
   appearance: none;
-}
+}*/
