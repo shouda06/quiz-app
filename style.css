@@ -70,6 +70,20 @@ h3{
 }
 
 button {
+  /*position: fixed;*/
+  right: 9px;
+  bottom: 5px;
+  width: 80%;
+  max-width: 250px;
+  padding: 15px;
+  font-size: 16px;
+  background: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.answer-btn{
   position: fixed;
   right: 9px;
   bottom: 5px;
@@ -194,22 +208,17 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   cursor: pointer;
 }
 
-/*#startScreen .start-btn {
-  position: absolute;
-  bottom: 30vh;     
-  left: 56%;
-  transform: translateX(-50%);
-  
-  width: 150%;
-  max-width: 300px;
+.start-btn {
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
   padding: 15px;
-  font-size: 10px;
-  background: none;
-  color: #551A8B;
+  font-size: 16px;
+  background: #1abc9c;
+  color: white;
   border: none;
   border-radius: 20px;
-  z-index: 999;
-}*/
+}
 
 /*@media (max-width: 480px) {
   #startScreen .start-btn {

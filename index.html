@@ -19,24 +19,24 @@
     <div id="questionScreen" class="screen">
       <h2 id="questionTitle"></h2>
       <div id="choices"></div>
-      <button onclick="submitAnswer()">回答する</button>
+      <button class="answer-btn" onclick="submitAnswer()">回答する</button>
     </div>
 
     <!-- 正解画面 -->
     <div id="correctScreen" class="screen">
-      <button onclick="goNext()">次の問題へ</button>
+      <button class="answer-btn" onclick="goNext()">次の問題へ</button>
     </div>
 
     <!-- 不正解画面 -->
     <div id="wrongScreen" class="screen">
-      <button onclick="retry()">もう一度挑戦</button>
+      <button class="answer-btn" onclick="retry()">もう一度挑戦</button>
     </div>
 
     <!-- 抽選画面 -->
     <div id="lotteryScreen" class="screen">
       <h3>おめでとうございます！!</h3>
       <p>抽選ページへ進んでください</p>
-      <button onclick="goToGoogleForm()">抽選へ進む</button>
+      <button class="answer-btn" onclick="goToGoogleForm()">抽選へ進む</button>
     </div>
 
     <!-- 完了画面 -->
