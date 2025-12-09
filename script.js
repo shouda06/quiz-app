@@ -173,5 +173,3 @@ function closeHint() {
 //window.addEventListener("resize", setFixedVH);
 //window.addEventListener("orientationchange", setFixedVH);
 //setFixedVH();
-
-window.addEventListener("load", setFixedVH);
