@@ -3,8 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: white;
-  height: 1920px;
-  width: 1080px;
+  height: 1000px;
+  width: 540px;
 
   /* 背景はクラスで設定するので共通設定だけ残す */
   background-size: contain;
