@@ -3,7 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: white;
-  height: calc(var(--fix-vh) * 100);
+  height: 1920px;
+  width: 1080px;
+
   /* 背景はクラスで設定するので共通設定だけ残す */
   background-size: contain;
   background-position: center;
@@ -11,7 +13,7 @@ body {
   /*background-size: 100% auto !important;*/
 }
 
-@media (max-aspect-ratio: 3/4) {
+/*@media (max-aspect-ratio: 3/4) {
   body {
     background-size: cover;
     background-size: 105% auto;
@@ -23,7 +25,7 @@ body {
     background-size: contain;
     background-size: 105% auto;
   }
-}
+}*/
 
 
 #app {
