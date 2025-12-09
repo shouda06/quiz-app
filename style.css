@@ -195,8 +195,8 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
 
 #startScreen .start-btn {
   position: absolute;
-  bottom: 36.5vh;      /* 位置調整（自由に変更OK） */
-  left: 50.7%;
+  bottom: 30vh;      /* 位置調整（自由に変更OK） */
+  left: 56%;
   transform: translateX(-50%);
   
   width: 100%;
@@ -210,11 +210,11 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   z-index: 999;
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   #startScreen .start-btn {
-  position: absolute;
-  bottom: 30vh;      /* 位置調整（自由に変更OK） */
-  left: 56%;
+  position: absolute;*/
+  /*bottom: 30vh;      /* 位置調整（自由に変更OK） */
+  /*left: 56%;
   transform: translateX(-50%);
   
   width: 1000%;
@@ -227,7 +227,7 @@ body.lottery-bg { background-image: url("images/lottery.jpg"); }
   border-radius: 20px;
   z-index: 999;
 }
-}
+}*/
 
 /** {
   -webkit-appearance: none;
